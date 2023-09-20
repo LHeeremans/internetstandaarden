@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+}
+
+
+header{
+    background-image: url(content/wp4545692.jpg); background-size: cover; background-repeat: no-repeat;
+    padding-top: 20em; padding-bottom: 5em;
+    color: white;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+
+img{
+    padding-left: 2em; padding-right: 2em; padding-bottom: 2em; padding-top: 2em;
+    align-content: center;
+
+}
+
+p{
+    padding-inline-start: 4em;
+    color: white;
+    padding-top: 3em;
+    margin: 30px;
+    padding: 10px;
+}
+
+
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+li {
+   display: inline;
+   padding-left: 1em;
+   color: white;
+}
+ul{
+   text-align: center;
+   padding-left: 4em;
+   color: white;
+   -ms-flex-align: start;
+   background-color: white;
+  }
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+}
+a:link{
+    color: white;
+}
+a :visited{
+    color: white;
+}
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+h6{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5em;
+}
+.firstidea {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 3em;
+    padding-bottom: em;
+    background-image: url(content/friends.jpeg); background-repeat: no-repeat; background-size: cover;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+.kopje {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-image: url(content/rm452-f-014.jpg); background-repeat: no-repeat; background-size: cover;
+}
+.ideatwo {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(content/Premium\ Photo\ |\ Growing\ global\ network\ and\ data\ connections\ concept.jpg); background-repeat: no-repeat; background-size: cover;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.bulletjournal {
+    display: flex;
+    justify-content: center;
+}
+u:hover {
+    color: #28275C;
+}
+.bullet {
+    padding-bottom: 2em;
+    
+}
+.dollar {
+    background-image: url(content/\ \ kopie.jpg); background-repeat: no-repeat; background-size: cover;
+    
+}
+.header1 {
+    padding-bottom: 5em;
+}
+.store {
+    display: flex;
+    align-items: center;
+}
+.movie {
+    display: flex;
+    align-items: center;
+}
+.header2 {
+    background-color: #28275C;
+    padding-bottom: 2em;
+}
+.boba {
+    display: flex;
+}
+.facebook {
+    display: flex;
+}
+.holiday {
+    display: flex;
+}
+.header3 {
+    background-color: #28275C;
+}
+.museum {
+    display: flex;
+}
+.westfield {
+    display: flex;
+}
+.header4 {
+    background-image: url(content/shopp.jpeg);
+}
+.horseriding {
+    display: flex;
+}
+.header5 {
+    background-color: #28275C;
+}
+.karaoke {
+    display: flex;
+}
