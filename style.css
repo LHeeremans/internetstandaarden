@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #4D4D4C;
 }
 
 
@@ -53,9 +53,7 @@ li {
 ul{
    text-align: center;
    padding-left: 4em;
-   color: white;
    -ms-flex-align: start;
-   background-color: white;
   }
 
 p{
