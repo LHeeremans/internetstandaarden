@@ -1,5 +1,5 @@
 body{
-    background-color: #262826;
+    background-color: #272826;
 }
 
 
@@ -258,4 +258,43 @@ u:hover {
     padding-bottom: 2em;
     margin: 5%;
     border-radius: 3em;
+}
+.Festival {
+    background-image: url(content/festival.jpg);
+    padding-bottom: 4em;
+    margin: 15%;
+    border-radius: 5em;
+    
+}
+
+iframe {
+    padding-left: 30%;
+}
+.Vaca {
+    background-image: url(content/Turkije.jpg);
+    padding-bottom: 4em;
+    margin: 15%;
+    border-radius: 5em;
+}
+.Paris {
+    background-image: url(content/Paris.JPG);
+    padding-bottom: 4em;
+    margin: 15%;
+    border-radius: 5em;
+}
+
+.concerts {
+    background-image: url(content/Concerts.jpg);
+    padding-bottom: 4em;
+    margin: 15%;
+    border-radius: 5em;
+}
+video {
+    padding-left: 35%;
+}
+.Roadtrips {
+    padding-bottom: 4em;
+    margin: 15%;
+    border-radius: 5em;
+    background-image: url(content/IMG_0280.jpg); background-repeat: no-repeat; background-size: cover;
 }
