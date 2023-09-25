@@ -1,14 +1,24 @@
+* {
+    box-sizing: border-box;
+
+}
 body{
     background-color: #272826;
 }
 
-
-header{
-    background-image: url(content/wp4545692.jpg); background-size: cover; background-repeat: no-repeat;
-    padding-top: 20em; padding-bottom: 5em;
+video {
+    width: 100%;
+    align-content: center;
     
 }
 
+
+h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+   
+}
 
 h1{
     color: white;
@@ -267,9 +277,7 @@ u:hover {
     
 }
 
-iframe {
-    padding-left: 30%;
-}
+
 .Vaca {
     background-image: url(content/Turkije.jpg);
     padding-bottom: 4em;
@@ -289,12 +297,12 @@ iframe {
     margin: 15%;
     border-radius: 5em;
 }
-video {
-    padding-left: 35%;
-}
+
 .Roadtrips {
     padding-bottom: 4em;
     margin: 15%;
     border-radius: 5em;
     background-image: url(content/IMG_0280.jpg); background-repeat: no-repeat; background-size: cover;
 }
+
+
