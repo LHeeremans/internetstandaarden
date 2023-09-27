@@ -3,7 +3,7 @@
 
 }
 body{
-    background-color: #272826;
+    background-color: #ffffff;
 }
 
 header {
@@ -13,16 +13,37 @@ header {
     background-size: cover;
 }
 
+section  {
+    display: flex;
+    width: 100vw;
+    
+}
+
+article {
+    width: 33%;
+    background-color: rgb(44, 44, 44); 
+    padding-bottom: 3vh;  
+}
+
+section article img {
+    width:100% ;
+    height: 80%;
+}
+
+article p {
+    color: #ffffff;
+}
+
 
 h1{
-    color: white;
+    color: rgb(44, 44, 44);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
    
 }
 
 h1{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
    
@@ -38,272 +59,114 @@ img{
 
 p{
     padding-inline-start: 4em;
-    color: white;
-    padding-top: 3em;
-    margin: 30px;
-    padding: 10px;
+    color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 3%;
 }
-
-
 
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(44, 44, 44);
     padding-top: 2em;
 }
 
 h3{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 li {
    display: inline;
    padding-left: 1em;
+   justify-content: space-between;
 }
 
 li a {
-    color: white;
+    color: rgb(44, 44, 44);
 }
 
 ul{
    text-align: center;
    padding-left: 4em;
-   -ms-flex-align: start;
+   justify-content: space-between;
   }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(80, 79, 79);
     padding-top: 2em;
 }
 a:link{
-    color: white;
+    color: rgb(44, 44, 44);
     align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3em;
 }
 a :visited{
-    color: white;
+    color: rgb(59, 123, 150);
+    background-color: #f44336;
+  
 }
-.first {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
+
 h6{
     color: white;
 }
 a:hover{
-    color: white;
+    color: rgb(59, 123, 150);
 }
-.link{
+
+section body {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 5em;
-
-}
-.kopjeroadtrip {
-    background-image: url(content/friends.jpeg); background-repeat: no-repeat; background-size: cover; 
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-    padding-top: 2em;
 }
 
+video {
+    width: 100%;
+    
+}
 
-
-.firstidea {
-    display:flex;
-    justify-content: space-around;
+.other {
+    display: flex;
     align-items: center;
+background-color: rgb(44, 44, 44);
 }
-
-
-.kopje {
-    padding-top: 2em;
-    padding-bottom: 1em;
-    background-image: url(content/rm452-f-014.jpg); background-repeat: no-repeat; background-size: cover;
+.other p {
+    margin: 8%;
+    color: #ffffff;
 }
-
-.kopjeflights {
-    background-image: url(content/Premium\ Photo\ |\ Growing\ global\ network\ and\ data\ connections\ concept.jpg); background-repeat: no-repeat; background-size: cover;
-    padding-bottom: 2em;
-    margin: 10%;
+.other img {
+    width: 50%;
+}
+iframe {
     border-radius: 3em;
+    background-color: rgb(44, 44, 44);
+    width: 50vh;
+    height: 33vh;
+    
 }
 
-
-.ideatwo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+h4 {
+    padding-top: 2vh;
+    font-family: fantasy;
+    text-align: center;
+    padding-bottom: 2vh;
 }
 
-.bulletjournal {
-    display: flex;
+video {
+    align-content: center;
+}
+iframe {
+    align-content: center;
     justify-content: center;
 }
-u:hover {
-    color: #28275C;
+h5 {
+    justify-content: center;
+    font-family: serif;
 }
-.bullet {
-    padding-bottom: 2em;
-    
-}
-.dollar {
-    background-color: #000000;
-    align-items: center;
-    margin: 10%;
-    border-radius: 3em;
-}
-
-
-.header1 {
-    margin: 10%;
-    border-radius: 3em;
-}
-.store {
-    display: flex;
-    align-items: center;
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-}
-
-.kopjemovie {
-    background-color: #28275C;
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-}
-
-
-.movie {
-    display: flex;
-    align-items: center;
-}
-.header2 {
-    background-color: #cfb472;
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-}
-.boba {
-    display: flex;
-    align-items: center;
-}
-
-.kopjefb {
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-    background-color: #000000;
-} 
-
-.facebook {
-    display: flex;
-    align-items: center; 
-}
-
-.holiday {
-    display: flex;
-    align-items: center;
-}
-.header3 {
-    background-color: #28275C;
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-}
-
-.kopjemuseum {
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-    background-color: #000000;
-}
-
-.museum {
-    display: flex;
-    align-items: center;
-}
-.westfield {
-    display: flex;
-    align-items: center;
-}
-.header4 {
-    background-image: url(content/shopp.jpeg);
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-}
-
-.kopjepaard {
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-    background-color: #cfb472;
-}
-
-.horseriding {
-    display: flex;
-    align-items: center;
-}
-.header5 {
-    background-color: #28275C;
-    padding-bottom: 2em;
-    margin: 10%;
-    border-radius: 3em;
-}
-.karaoke {
-    display: flex;
-    align-items: center;
-}
-
-.mybucket {
-    background-image: url(content/Traveller\ Bag.jpg); background-repeat: no-repeat; background-size: cover;
-    padding-bottom: 2em;
-    margin: 5%;
-    border-radius: 3em;
-}
-.Festival {
-    background-image: url(content/festival.jpg);
-    padding-bottom: 4em;
-    margin: 15%;
-    border-radius: 5em;
-    
-}
-
-
-.Vaca {
-    background-image: url(content/Turkije.jpg);
-    padding-bottom: 4em;
-    margin: 15%;
-    border-radius: 5em;
-}
-.Paris {
-    background-image: url(content/Paris.JPG);
-    padding-bottom: 4em;
-    margin: 15%;
-    border-radius: 5em;
-}
-
-.concerts {
-    background-image: url(content/Concerts.jpg);
-    padding-bottom: 4em;
-    margin: 15%;
-    border-radius: 5em;
-}
-
-.Roadtrips {
-    padding-bottom: 4em;
-    margin: 15%;
-    border-radius: 5em;
-    background-image: url(content/IMG_0280.jpg); background-repeat: no-repeat; background-size: cover;
-}
-
-
