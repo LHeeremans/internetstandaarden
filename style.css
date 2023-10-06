@@ -54,8 +54,7 @@ h2 {
     padding-top: 2em;
 }
 
-h1,
-h3 {
+h1,h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -163,29 +162,4 @@ iframe {
     background-color: rgb(44, 44, 44);
     width: 50vh;
     height: 33vh;
-}
-
-button {
-    font-size: 2em;
-    color: rgb(44, 44, 44);
-    text-transform: uppercase;
-    border: 1em solid black;
-    padding: 0.5em;
-    border-radius: 0.3em;
-    background: none;
-    transition: all 250ms ease-out;
-    display: block;
-}
-
-button:hover {
-    background: rgb(59, 123, 150);
-    color: rgb(255, 255, 255);
-    transform: translateY(-0.5em);
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
 }
