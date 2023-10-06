@@ -84,6 +84,7 @@ p {
 section {
     display: flex;
     width: 100vw; 
+    padding-bottom: 2em;
 }
 
 section article img {
@@ -125,6 +126,17 @@ article h3 {
 
 article p {
     color: #ffffff;
+}
+
+article.tekst {
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+article.tekst p {
+    color: rgb(44, 44, 44);
 }
 
 #paginaHeader h1{
@@ -172,4 +184,5 @@ button:hover {
     display: flex;
     justify-content: center;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
