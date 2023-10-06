@@ -4,7 +4,7 @@
 
 header {
     background-image: url(content/bucketlist_1.mp4);
-    height: 100vh; 
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,7 +38,7 @@ li {
     padding-left: 1em;
     justify-content: space-between;
 }
- 
+
 ul {
     text-align: center;
     padding-left: 2em;
@@ -54,7 +54,8 @@ h2 {
     padding-top: 2em;
 }
 
-h1, h3 {
+h1,
+h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -83,7 +84,7 @@ p {
 
 section {
     display: flex;
-    width: 100vw; 
+    width: 100vw;
     padding-bottom: 2em;
 }
 
@@ -113,11 +114,11 @@ section.other img {
 
 article {
     width: 33%;
-    background-color: rgb(44, 44, 44); 
-    padding-bottom: 3vh; 
+    background-color: rgb(44, 44, 44);
+    padding-bottom: 3vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
 }
 
 article h3 {
@@ -139,14 +140,16 @@ article.tekst p {
     color: rgb(44, 44, 44);
 }
 
-#paginaHeader h1{
+#paginaHeader h1 {
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
- 
+
 img {
-    padding-left: 2em; padding-right: 2em; padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
     border-radius: 3em;
 }
 
